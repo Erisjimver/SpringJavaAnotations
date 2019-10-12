@@ -10,7 +10,7 @@ public class ejecutora {
        ClassPathXmlApplicationContext contexto=new ClassPathXmlApplicationContext("applicationContext.xml");       
        
        //pedir un bean al contenedor
-       Empleados Israel = contexto.getBean("ComercialExperimentado",Empleados.class);
+       Empleados Israel = contexto.getBean("comercialExperimentado",Empleados.class);
        
        //usar el bean
        System.out.println(Israel.getInformes());

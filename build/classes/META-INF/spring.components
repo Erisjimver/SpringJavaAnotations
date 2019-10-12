@@ -1,1 +1,2 @@
-PruebaAnotations.ComercialExperimentado=org.springframework.stereotype.Component
+PruebaAnotations.comercialExperimentado=org.springframework.stereotype.Component
+PruebaAnotations.informeFinancieroTrim=org.springframework.stereotype.Component
