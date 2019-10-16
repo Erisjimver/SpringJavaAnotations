@@ -1,9 +1,9 @@
-package PruebaAnotations;
+package PruebaAnotations1;
 
 import org.springframework.stereotype.Component;
 
-@Component 
-public class informeFinancieroTrim implements CreacionInformeFinanciero{
+@Component
+public class InformeFinancieroTrim1 implements CreacionInformeFinanciero1{
 
     @Override
     public String getInformeFinanciero() {

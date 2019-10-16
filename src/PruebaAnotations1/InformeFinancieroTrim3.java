@@ -1,8 +1,10 @@
-package PruebaAnotations;
+package PruebaAnotations1;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component 
-public class InformeFinancieroTrim3 implements CreacionInformeFinanciero{
+@Qualifier("ift3")
+public class InformeFinancieroTrim3 implements CreacionInformeFinanciero1{
     
     @Override
     public String getInformeFinanciero() {
