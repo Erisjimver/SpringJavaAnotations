@@ -1,7 +1,5 @@
-PruebaAnotations.ComercialExperimentado=org.springframework.stereotype.Component
-PruebaAnotations.InformeFinancieroTrim1=org.springframework.stereotype.Component
-PruebaAnotations1.InformeFinancieroTrim1=org.springframework.stereotype.Component
-PruebaAnotations1.InformeFinancieroTrim2=org.springframework.stereotype.Component
-PruebaAnotations1.InformeFinancieroTrim3=org.springframework.stereotype.Component
-PruebaAnotations1.InformeFinancieroTrim4=org.springframework.stereotype.Component
-PruebaAnotations1.comercialExperimentado1=org.springframework.stereotype.Component
+prueba.ComercialExperimentado=org.springframework.stereotype.Component
+prueba.InformeFinancieroTrim1=org.springframework.stereotype.Component
+prueba.InformeFinancieroTrim2=org.springframework.stereotype.Component
+prueba.InformeFinancieroTrim3=org.springframework.stereotype.Component
+prueba.InformeFinancieroTrim4=org.springframework.stereotype.Component
