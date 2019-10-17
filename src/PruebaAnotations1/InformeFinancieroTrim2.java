@@ -3,7 +3,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component 
-@Qualifier("ift2")
+@Qualifier("iFt2")
 public class InformeFinancieroTrim2 implements CreacionInformeFinanciero1{
     
     @Override

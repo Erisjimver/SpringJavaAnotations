@@ -11,13 +11,14 @@ public class ejecutora {
        
        //pedir un bean al contenedor
        Empleados Israel = contexto.getBean("comercialExperimentado",Empleados.class);
-       
+        System.out.println("Mensaje");
+        System.out.println(Israel);
        //usar el bean
-       System.out.println(Israel.getInformes());
-       System.out.println(Israel.getTareas());       
-       
+       //System.out.println(Israel.getInformes());
+       //System.out.println(Israel.getTareas());       
+        
        //cerrar el contexto
-       contexto.close();
+       //contexto.close();
         
     }
     

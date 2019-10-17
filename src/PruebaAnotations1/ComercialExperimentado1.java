@@ -6,10 +6,10 @@ import org.springframework.stereotype.Component;
 
 //@Component("ComercialExperimentado")
 @Component
-public class comercialExperimentado1 implements Empleados1{
+public class ComercialExperimentado1 implements Empleados1{
     
     @Autowired
-    public comercialExperimentado1(CreacionInformeFinanciero1 nuevoInforme) {
+    public ComercialExperimentado1(CreacionInformeFinanciero1 nuevoInforme) {
         this.nuevoInforme = nuevoInforme;
     }
 
@@ -26,7 +26,7 @@ public class comercialExperimentado1 implements Empleados1{
     }
     
     @Autowired
-    @Qualifier("informeFinancieronTrim1")
+    @Qualifier("iFt2")
     private CreacionInformeFinanciero1 nuevoInforme;
     
 }
