@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class ComercialExperimentado implements Empleados{
 
     @Autowired
-    @Qualifier("informeFinancieroTrim3")    
+    @Qualifier("informeFinancieroTrim4")    
     private CreacionInformeFinanciero nuevoInforme;
     /*
     @Autowired
