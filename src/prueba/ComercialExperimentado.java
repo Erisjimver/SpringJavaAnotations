@@ -1,19 +1,19 @@
-package PruebaAnotations1;
+package prueba;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 //@Component("ComercialExperimentado")
 @Component
-public class ComercialExperimentado1 implements Empleados1{
+public class ComercialExperimentado implements Empleados{
     
+    private CreacionInformeFinanciero nuevoInforme;
+
     @Autowired
-    public ComercialExperimentado1(CreacionInformeFinanciero1 nuevoInforme) {
+    public ComercialExperimentado(CreacionInformeFinanciero nuevoInforme) {
         this.nuevoInforme = nuevoInforme;
     }
 
-    
     @Override
     public String getTareas() {
         return "Vender mas";
@@ -25,8 +25,6 @@ public class ComercialExperimentado1 implements Empleados1{
         return nuevoInforme.getInformeFinanciero();
     }
     
-    @Autowired
-    @Qualifier("iFt2")
-    private CreacionInformeFinanciero1 nuevoInforme;
+
     
 }

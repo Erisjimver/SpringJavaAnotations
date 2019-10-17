@@ -1,5 +1,5 @@
-package PruebaAnotations1;
-public interface Empleados1 {
+package prueba;
+public interface Empleados {
  public String getTareas();
  public String getInformes();
 }

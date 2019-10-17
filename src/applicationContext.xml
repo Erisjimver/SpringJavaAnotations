@@ -10,7 +10,7 @@
 ">
 
     <!--escanear clases que se encuentran dentro de los paquetes lsitados aqui-->
-        <context:component-scan base-package="PruebaAnotations"></context:component-scan>
+        <context:component-scan base-package="prueba"></context:component-scan>
 
       
 </beans>
