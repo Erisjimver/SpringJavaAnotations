@@ -1,4 +1,5 @@
 prueba.ComercialExperimentado=org.springframework.stereotype.Component
+prueba.EmpleadosConfig=org.springframework.stereotype.Component
 prueba.InformeFinancieroTrim1=org.springframework.stereotype.Component
 prueba.InformeFinancieroTrim2=org.springframework.stereotype.Component
 prueba.InformeFinancieroTrim3=org.springframework.stereotype.Component
